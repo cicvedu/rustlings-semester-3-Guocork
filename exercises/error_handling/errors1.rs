@@ -22,7 +22,7 @@ pub fn generate_nametag_text(name: String) -> Result<String, String> {
 
 #[cfg(test)]
 mod tests {
-    use super::*;
+    use super::*; 
 
     #[test]
     fn generates_nametag_text_for_a_nonempty_name() {
